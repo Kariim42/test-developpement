@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    margin: .7em 1.8em;
+    align-items: center;
+}
+
+.logo img{
+    width: 6em;
+}
+
+.center ul{
+    display: flex;
+}
+
+.center li{
+    list-style: none;
+    margin: 0 1em;
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    border-bottom: white 2px solid;
+    transition: all 0.3s ease;
+}
+
+.center li:hover{
+    border-bottom: solid 1px #abaf93;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+}
+
+.icon div{
+    margin: .5em;
+    color: #abaf93;
+    transition: all 0.3s ease;
+}
+
+.icon div:hover{
+    border-bottom: solid 1px #abaf93;
+    cursor: pointer;
+}

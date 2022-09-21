@@ -1,0 +1,88 @@
+.banner img{
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    background-size: cover;
+}
+
+.information{
+    position: relative;
+    background-color: white;
+    top: 40px;
+    left: 3%;
+    height: 58vh;
+    width: 20%;
+    border-radius: 0.2rem;
+    padding: 3em 3em;
+}
+
+span{
+    color: #8b8b8b;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85em;
+    font-weight: 550;
+}
+
+.arrow{
+    display: flex;
+    margin-top: 1em;
+}
+
+.arrow .icon-snr-arrow-left-20{
+    opacity: 50%;
+    color: #8b8b8b;
+    font-size: 1.4em;
+    margin-left: 0.1em;
+}
+
+.arrow .icon-snr-arrow-right-20{
+     color: #8b8b8b;
+     font-size: 1.4em;
+     margin-left: 1.3em;
+}
+
+ .buttonShangai{
+    display: flex;
+    align-items: center;
+}
+
+.buttonShangai button{
+    padding: 0.2em 1em;
+    background-color: #c9c1c1;
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+
+.buttonShangai h2{
+    color: #3a535b;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 550;
+}
+
+p{
+    color: #8b8b8b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-bottom: 3em;
+    margin-left: .4em;
+}
+
+.bottom{
+    display: flex;
+    margin-left: .4em;
+    align-items: center;
+}
+
+.bottom .icon-snr-document-20{
+    color: #8b8b8b;
+    font-size: 1.4em;
+    margin-right: 0.2em;
+}
+
+.bottom button{
+    padding: 0.1em .4em;
+    background-color: #c9c1c1;
+    border: 0.1px solid black;
+    cursor: pointer;
+}

@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "test-developpement"
+  "defaultProject": "test-developpement",
+  "cli": {
+    "analytics": "452d1b4b-524a-4321-b6b9-9f481638bf19"
+  }
 }
