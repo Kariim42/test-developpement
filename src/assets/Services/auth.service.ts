@@ -5,5 +5,14 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
 
-  constructor() { }
+  isAuthenticated(){
+    if (localStorage.getItem("login") === null) {
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
 }
+
+

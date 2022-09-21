@@ -42,3 +42,22 @@
     border-bottom: solid 1px #abaf93;
     cursor: pointer;
 }
+
+
+//ngClass
+
+.connect{
+    color: #2d52a3;
+    z-index: 1;
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    height: 8vh;
+    width: 50vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    border-color: #2d52a3 3px solid;
+}
